@@ -3,7 +3,7 @@ function setup() {
   strokeWeight (0.4);
   stroke(0,0,128);
   background (240,230,250)
-  frameRate(0.1);
+  frameRate(1);
 
 }
 
@@ -20,8 +20,8 @@ function draw() {
     for(var y=0; y <num*sideLen; y=y+sideLen ){
       fill(random(190,255),random(180,255),random(170,255),200);
       quad(x+ random (-shift,shift)+space,y+ random (-shift,shift)+space,x+sideLen+ random (-shift,shift)-space,y+ random (-shift,shift)+space,x+sideLen+ random (-shift,shift)-space,y+sideLen+ random (-shift,shift)-space,x+ random (-shift,shift)+space,y+sideLen+ random (-shift,shift)-space);
-      
- 
+
+
 }
     }
 
